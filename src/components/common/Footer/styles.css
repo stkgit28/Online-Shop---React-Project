@@ -1,0 +1,25 @@
+footer {
+  border-top: 1px solid #181510;
+  padding: 2rem 0 2rem 0;
+  margin-left: -9rem;
+  margin-right: -9rem;
+  background-color: #181510;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11rem;
+  padding-right: 11rem;
+  align-items: center;
+}
+
+footer p {
+  font-weight: 500;
+  color: aliceblue;
+  max-width: 600px;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  footer p {
+    font-size: 0.8rem;
+  }
+}
